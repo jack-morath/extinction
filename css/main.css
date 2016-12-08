@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'vollkornregular';
+    src: url('../fonts/vollkorn-regular-webfont.woff2') format('woff2'),
+         url('../fonts/vollkorn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	margin: 0;
+}
+header {
+	background-image:url('../img/groupofbirds.jpg');
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-size: cover;	
+}
+h1 {
+	margin: 0;
+	padding: 10% 2% 10% 21%;
+	font-family: vollkornregular;
+}
+p {
+	font-family: quicksandregular;
+}
+h2 {
+	font-family: vollkornregular;
+}
