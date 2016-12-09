@@ -34,6 +34,7 @@
 
 body {
 	margin: 0;
+	background-color: #b6c4c4;
 }
 header {
 	background-image:url('../img/groupofbirds.jpg');
@@ -43,12 +44,126 @@ header {
 }
 h1 {
 	margin: 0;
-	padding: 10% 2% 10% 21%;
+	padding: 10% 2% 10% 23%;
 	font-family: vollkornregular;
 }
 p {
 	font-family: quicksandregular;
+	line-height: 225%;
 }
 h2 {
 	font-family: vollkornregular;
+	text-align: center;
+}
+.about img {
+	width: 25%;
+	margin: 5%;
+	float: left;
+}
+.about p {
+	margin: 5%;
+	width: 50%;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+h3 {
+	margin: 0% 10% 0% 10%;
+	font-family: vollkornregular;
+	text-align: center;
+	border-width: 5px 0 0 0;
+	border-top: ;
+	border-style: double;
+	border-top-color: #51544a;
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+.habitat img {
+	width: 35%;
+	margin: 5%;
+	float: right;
+}
+.habitat p {
+	margin: 5%;
+	width: 40%;
+	float: left;
+}
+.attributes img {
+	width: 25%;
+	margin: 5%;
+	float: left;
+}
+.attributes p {
+	width: 45%;
+	margin: 5%;
+	float: right;
+}
+h4 {
+	margin: 0% 10% 0% 10%;
+	font-family: vollkornregular;
+	text-align: center;
+	border-width: 5px 0 0 0;
+	border-top: ;
+	border-style: double;
+	border-top-color: #51544a;
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+h5 {
+	margin: 0% 10% 0% 10%;
+	font-family: vollkornregular;
+	text-align: center;
+	border-width: 5px 0 0 0;
+	border-top: ;
+	border-style: double;
+	border-top-color: #51544a;
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+.decline img {
+	width: 25%;
+	margin: 5%;
+	float: right;
+}
+.decline p {
+	width: 45%;
+	margin: 5%;
+	float: left;
+}
+h6 {
+	margin: 0% 10% 0% 10%;
+	font-family: vollkornregular;
+	text-align: center;
+	border-width: 5px 0 0 0;
+	border-top: ;
+	border-style: double;
+	border-top-color: #51544a;
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+.extinction img {
+	width: 30%;
+	margin: 5%;
+	float: left;
+}
+.extinction p {
+	width: 45%;
+	margin: 5%;
+	float: right;
+}
+.me {
+	background-color: #7c8e87;
+	padding: 2%;
+}
+.me a {
+	text-decoration: none;
+	color: black;
+	font-family: vollkornregular;
+}
+.me a:visited {
+	color: black;
+}
+.me a:hover {
+	color: white;
 }
